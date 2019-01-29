@@ -1,9 +1,8 @@
 zuul:
   routes:
     # 简写
-   product: /myProduct/**
+#    product: /myProduct/**
      myProduct:
-#       /myProduct/product/list -> /product/product/list
        path: /myProduct/**
        serviceId: product
   sensitiveHeaders:
