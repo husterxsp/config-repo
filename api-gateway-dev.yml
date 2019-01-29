@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    # 简写
+#    product: /myProduct/**
+     myProduct:
+#       /myProduct/product/list -> /product/product/list
+       path: /myProduct/**
+       serviceId: product
+  sensitiveHeaders:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+
+  add-host-header: true
