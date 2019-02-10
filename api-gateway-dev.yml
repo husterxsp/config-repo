@@ -2,6 +2,7 @@ zuul:
   routes:
     # 简写
 #    product: /myProduct/**
+     user: /user/**
      myProduct:
        path: /myProduct/**
        serviceId: product
