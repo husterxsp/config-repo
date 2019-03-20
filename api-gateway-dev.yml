@@ -12,3 +12,6 @@ zuul:
     connect-timeout-millis: 60000
 
   add-host-header: true
+  
+server:
+  port: 8084
