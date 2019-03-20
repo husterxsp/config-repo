@@ -14,4 +14,4 @@ zuul:
   add-host-header: true
   
 server:
-  port: 8084
+  port: 8085
